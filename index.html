@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axome test</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background"></div>
+
+    <header>
+      <div class="drop-down-menu">
+        <img class="dropdown-toggle" src="/assets/svg/menu.svg" alt="" />
+        <ul class="menu-items">
+          <a href="#home">Home</a>
+          <a class="smooth-scroll" href="#about">About</a>
+          <a class="smooth-scroll" href="#menu">Gallery</a>
+          <a href="#">Testimonial</a>
+        </ul>
+      </div>
+
+      <img
+        class="logo-header"
+        src="/assets/svg/logo-axome.svg"
+        alt="logo-axome"
+      />
+
+      <div class="desktop-menu">
+        <a href="#home">Home</a>
+        <a class="smooth-scroll" href="#about">About</a>
+        <a class="smooth-scroll" href="#menu">Gallery</a>
+        <a href="#">Testimonial</a>
+      </div>
+      <button class="contact-button">Contact</button>
+    </header>
+
+    <main id="home">
+      <div class="main-div">
+        <h2>RESTAURANT</h2>
+        <h1>
+          Enjoy a good experience <br />
+          at our restaurant
+        </h1>
+        <p class="main-text">
+          We make other people enjoy and give happiness in our restaurant. Come
+          here and relax with your family and loved ones.
+        </p>
+        <div class="button-main">
+          <button>Best Menu</button>
+          <div class="video">
+            <img class="video-button" src="/assets/svg/video.svg" alt="" />
+            <p>See Videos</p>
+          </div>
+        </div>
+        <div class="down-div">
+          <img
+            id="scrollButton"
+            class="down-button"
+            src="/assets/svg/nav-arrow-down.svg"
+            alt=""
+          />
+          <p>Scroll Down For More</p>
+        </div>
+      </div>
+      <div class="img-container">
+        <img class="main-img" src="/assets/img/header.jpg" alt="" />
+      </div>
+    </main>
+
+    <section class="about" id="about">
+      <div class="about-wrapper">
+        <div class="about-img-container">
+          <img src="/assets/img/about-us.jpg" alt="" />
+        </div>
+        <div class="about-text-container">
+          <h2>ABOUT US</h2>
+          <h3 class="about-title">The Best restaurant <br />in the city</h3>
+          <p class="about-text">
+            We are a restaurant that is open to anyone. We are the intermediary
+            medium when it comes to food. Do not worry, here it is very easy to
+            find a variety of foods. With very modern facilities you can enjoy
+            it sparingly.
+          </p>
+          <button class="about-button">Find Out More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="title-menu">
+        <h2>BEST MENU</h2>
+        <h3>Best food menu in restaurant</h3>
+      </div>
+
+      <div class="menu-wrapper">
+        <div class="content-menu">
+          <img src="assets/img/article-1.jpg" alt="" />
+          <div class="text-content">
+            <h4>Fresh Salad</h4>
+            <p class="description">
+              New food and concent interest. best food menuin the
+              city,people....
+            </p>
+            <p class="read">Read more</p>
+          </div>
+        </div>
+
+        <div class="content-menu hidden">
+          <img src="assets/img/article-2.jpg" alt="" />
+          <div class="text-content">
+            <h4>Fruits Salad</h4>
+            <p class="description">
+              New food and concent interest. best food menuin the city,peo....
+            </p>
+            <p class="read">Read more</p>
+          </div>
+        </div>
+
+        <div class="content-menu hidden">
+          <img src="assets/img/article-3.jpg" alt="" />
+          <div class="text-content">
+            <h4>Soft mix Salad</h4>
+            <p class="description">
+              New food and concent interest. best food meu...
+            </p>
+            <p class="read">Read more</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="left-right">
+        <img
+          class="left"
+          id="left-arrow"
+          src="/assets/svg/nav-arrow-left.svg"
+          alt=""
+        />
+        <img
+          class="right"
+          id="right-arrow"
+          src="/assets/svg/nav-arrow-left.svg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-div">
+          <h4>Get's your discount</h4>
+          <p>Check now !</p>
+        </div>
+        <div class="footer-div">
+          <h4>Our services</h4>
+          <p>Collection</p>
+          <p>How its work</p>
+          <p>Estimats</p>
+        </div>
+        <div class="footer-div">
+          <h4>Company</h4>
+          <p>Terms of use</p>
+          <p>Privacy policy</p>
+          <p>Careers</p>
+        </div>
+        <div class="footer-div">
+          <h4>Contact</h4>
+          <p>dev@axome.com</p>
+          <p>(888) 315-500</p>
+          <p>St. Village, New York</p>
+        </div>
+      </div>
+    </footer>
+    <script src="slideDown.js"></script>
+    <script src="slideButton.js"></script>
+    <script src="dropDownMenu.js"></script>
+    <script src="smoothScroll.js"></script>
+  </body>
+</html>
